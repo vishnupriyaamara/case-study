@@ -41,7 +41,6 @@ public class ParkingLot {
         this.freeSlots.add(new Slot(j, i));
       }
     }
-    System.out.println("Created parkingLot with totalSlots: " + totalSlots);
   }
 
   public int getTotalStoreys() {
